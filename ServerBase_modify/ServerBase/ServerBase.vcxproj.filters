@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BLL">
+      <UniqueIdentifier>{d586830e-7ed1-4af5-a8dd-47fdc69b767a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{bbfd3c41-c4fb-46cb-b702-57b51aa21e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\源文件">
+      <UniqueIdentifier>{f5798654-14da-487d-9f5a-d199a198986a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLL\头文件">
+      <UniqueIdentifier>{5057c3ef-d1c1-49af-acbe-9798c7e3cf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAL\源文件">
+      <UniqueIdentifier>{e6b1271a-98b5-448f-b2d3-503cf817730d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DAL\头文件">
+      <UniqueIdentifier>{b852a92e-79ff-4baa-9e6f-fb0a0e375c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decord">
+      <UniqueIdentifier>{1edc592e-5d80-459f-9a42-700659d75107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BLL_DataSR.cpp">
+      <Filter>BLL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLL_WaitConn.cpp">
+      <Filter>BLL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLL_Dute.cpp">
+      <Filter>BLL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BLL_Init.cpp">
+      <Filter>BLL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL_fifo.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL_fifoMain.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL_list.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL_listMain.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>DAL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>BLL\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecordStr.cpp">
+      <Filter>Decord</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BLL_DataSR.h">
+      <Filter>BLL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BLL_WaitConn.h">
+      <Filter>BLL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BLL_Dute.h">
+      <Filter>BLL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BLL_Init.h">
+      <Filter>BLL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA.h">
+      <Filter>DAL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>DAL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fifo.h">
+      <Filter>DAL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>DAL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>DAL\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecordStr.h">
+      <Filter>Decord</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
